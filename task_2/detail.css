@@ -1,0 +1,61 @@
+*
+{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body
+{
+    background-color:#8fc4ab;
+}
+ 
+.badan
+{
+    width: 880px;
+    margin: 35px auto;
+    background-color: white;
+    padding: 20px;
+    overflow: hidden;
+}
+ 
+.badan h1{
+    color: crimson;
+    border-bottom: 4px solid gainsboro;
+    margin: 5px;
+    margin-bottom: 13px;
+}
+
+.detail-produk
+{
+    border: 1px solid gainsboro;
+    padding: 10px;
+    float: left;
+    width: 50%;
+    margin: 5px;
+    margin-left: 25%;
+}
+ 
+.detail-produk:hover
+{
+    transition-duration: 700ms;
+    box-shadow: 5px 5px gainsboro;
+}
+
+.detail-produk img
+{
+    width: 50%;
+    height: 175px;
+    display: block;
+    margin-bottom: 5px;
+    margin-left: 25%;
+}
+ 
+.detail-produk h4, .detail-produk h5
+{
+    color: crimson;
+    text-align: center;
+    margin-bottom: 5px;
+}
+ 
